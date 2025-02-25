@@ -1,16 +1,18 @@
-# **Tarea 1: Detección de la Severidad de Accidentes Automovilísticos con Redes Convolucionales**
+# **Tarea 2: Proyección del precio de cierre del SP500 usando redes neuronales recurrentes**
 * Luis Eduardo Sequeira 173870
 * Victor Raúl Baños 159763
 
 ## **Descripción de la tarea**
-El objetivo de esta tarea es construir un modelo basado en redes neuronales convolucionales (CNN) utilizando Python, que sea capaz de clasificar la severidad de accidentes automovilísticos a partir de imágenes del **Car Damage Severity Dataset** disponible en Kaggle. Este proyecto busca explorar el uso de técnicas avanzadas de procesamiento de imágenes y aprender a aplicar deep learning en problemas reales de evaluación de riesgos.
+El objetivo de esta tarea es construir un modelo basado en redes neuronales recurrentes utilizando Python, que sea capaz de pronosticar de forma efectiva el precio de cierre futuro del índice S&P500.
 
-Específicamente, la base de datos consta de imágenes de choques de distintas intensidades y la idea es poder implementar un modelo de red neuronal que logre clasificar las imágenes de acuerdo con la severidad de cada choque.
-* **Minor** (Daño leve)
-* **Moderate** (Daño moderado)
-* **Severe** (Daño severo)
+## **Especificaciones de la Tarea**
 
-Lo anterior plantea un modelo de gran relevancia para el sector asegurador, puesto que puede ser utilizado para gestionar correctamente el riesgo de la cartera y, consecuentemente, determinar el precio de las primas por ejemplo.
+### **Dataset**
+- Descargar de Yahoo finance las series de S&P, Dow Jones y el precio USD/MXN.
+- Los datasets contiene precio de apertura, cierre, máximo y mínimo.
+
+### **Objetivo**
+- Entrenar una red recurrente que sea capaz de pronosticas correctamente los precios de cierre del índice S&P500.
 ---
 
 ## **Pasos necesarios para ejecutar el código**
